@@ -1,8 +1,6 @@
 #pragma once
-#include "Object.h"
+//#include "Object.h"
 #include "Engine.h"
-
-
 
 #include "PingIP.generated.h"
 

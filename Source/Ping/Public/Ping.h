@@ -1,8 +1,8 @@
 // Copyright 1998-2015 Epic Games, Inc. All Rights Reserved.
 
 #pragma once
-
-#include "ModuleManager.h"
+//#include "Modules/ModuleInterface.h"
+#include "Modules/ModuleManager.h"
 
 class FPingModule : public IModuleInterface
 {

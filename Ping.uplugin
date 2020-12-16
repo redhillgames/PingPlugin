@@ -14,7 +14,8 @@
 		{
 			"Name": "Ping",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [ "Win64", "Stadia" ]
 		}
 	],
 	"EnabledByDefault": false,

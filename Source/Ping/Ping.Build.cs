@@ -1,6 +1,7 @@
 // Copyright 1998-2015 Epic Games, Inc. All Rights Reserved.
 
 using UnrealBuildTool;
+using System.IO;
 
 public class Ping : ModuleRules
 {
@@ -10,7 +11,7 @@ public class Ping : ModuleRules
         
 		PublicIncludePaths.AddRange(
 			new string[] {
-				"Ping/Public"
+				Path.Combine(ModuleDirectory, "Public"),
 				// ... add public include paths required here ...
 			}
 			);
@@ -18,7 +19,7 @@ public class Ping : ModuleRules
 		
 		PrivateIncludePaths.AddRange(
 			new string[] {
-				"Ping/Private",
+				Path.Combine(ModuleDirectory, "Private"),
 				// ... add other private include paths required here ...
 			}
 			);
